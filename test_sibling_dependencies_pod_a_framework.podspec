@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
-  s.name = 'test_sibling_dependencies_pod_a'
+  s.name = 'test_sibling_dependencies_pod_a_framework'
+  s.module_name = 'test_sibling_dependencies_pod_a'
   s.version = '0.0.0'
   s.summary = 'CocoaPods documentation could be improved...'
   s.license = 'MIT'
