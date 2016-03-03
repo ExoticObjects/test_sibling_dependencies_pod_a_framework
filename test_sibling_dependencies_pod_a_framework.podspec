@@ -8,7 +8,9 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/ExoticObjects/test_sibling_dependencies_pod_a'
   s.description = "Pod description. It's a pod"
   s.requires_arc = true
-  s.source = {}
+  s.source                          = {
+    :git => "https://github.com/ExoticObjects/test_sibling_dependencies_pod_a_framework.git"
+  }
 
   s.platform = :ios, '9.0'
   # s.ios.platform             = :ios, '9.0'
