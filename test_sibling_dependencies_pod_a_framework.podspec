@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.frameworks                      = ['CoreData','CoreGraphics','CoreImage','CoreLocation','CoreText','Foundation','ImageIO','MapKit','MessageUI','MobileCoreServices','QuartzCore','Security','SystemConfiguration','UIKit']
   s.ios.preserve_paths       = 'ios/test_sibling_dependencies_pod_a.framework'
   s.ios.public_header_files  = 'ios/test_sibling_dependencies_pod_a.framework/Versions/A/Headers/*.h'
-  s.ios.resource             = 'ios/test_sibling_dependencies_pod_a.framework/Versions/A/Resources/**/*'
+  # s.ios.resource             = 'ios/test_sibling_dependencies_pod_a.framework/Versions/A/Resources/**/*'
   s.ios.vendored_frameworks  = 'ios/test_sibling_dependencies_pod_a.framework'
 end
